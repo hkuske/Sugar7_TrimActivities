@@ -19,7 +19,7 @@ function TrimActivities() {
 
 	$GLOBALS['log']->info('----->Scheduler fired job of type TrimActivities()');
     global $sugar_config, $timedate;
-	define("DEFAULT_INTERVAL","90");
+	define("DEFAULT_INTERVAL","!80");
     $activitiesStamp = array (
         'activities' => 'date_entered',
         'activities_users' =>  'date_modified',
