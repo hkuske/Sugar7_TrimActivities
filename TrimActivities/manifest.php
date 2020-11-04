@@ -6,16 +6,17 @@
 $manifest = array (
   'acceptable_sugar_versions' => 
   array (
-    0 => '7.*.*',
-    1 => '8.*.*',
-    1 => '9.*.*',
+    '7.*.*',
+    '8.*.*',
+    '9.*.*',
+    '10.*.*',
 	),
   'acceptable_sugar_flavors' => 
   array (
-    0 => 'PRO',
-    1 => 'CORP',
-    2 => 'ENT',
-    3 => 'ULT',
+    'PRO',
+    'CORP',
+    'ENT',
+    'ULT',
   ),
   'readme' => '',
   'key' => '',
@@ -24,9 +25,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'TrimActivities',
-  'published_date' => '2018-09-30 00:00:00',
+  'published_date' => '2020-11-01 00:00:00',
   'type' => 'module',
-  'version' => 20180930,
+  'version' => 20201101,
   'remove_tables' => 'false',
 );
 
